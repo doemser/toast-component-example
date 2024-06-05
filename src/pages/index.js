@@ -7,7 +7,6 @@ export default function Home({ onToast }) {
       <button
         onClick={() => {
           onToast("This is the 'Success Message'");
-          router.push("/");
         }}
       >
         Success Toast!
